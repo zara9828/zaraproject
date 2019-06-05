@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/profilenext"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/akun"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/navy"
+        android:text="Akun saya"
+        android:textStyle="bold"
+        android:textColor="#FFFF"/>
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:background="@drawable/thn"
+        android:layout_below="@+id/akun">
+
+
+        <Button
+            android:id="@+id/daftar"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="#0000AF"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:text="MASUK ATAU daftar AKUN" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/titleBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bhs"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Bahasa"
+            android:background="#FFFF" />
+
+
+        <Button
+            android:id="@+id/ttg"
+            android:layout_below="@+id/bhs"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="About Us"
+            android:background="#FFFF" />
+
+        <Button
+            android:id="@+id/faq"
+            android:layout_below="@+id/ttg"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="faq"
+            android:background="#FFFF" />
+
+        <Button
+            android:id="@+id/terms"
+            android:layout_below="@+id/faq"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Terms and CONDITION"
+            android:background="#FFFF" />
+
+        <Button
+            android:id="@+id/policy"
+            android:layout_below="@id/terms"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Privacy Policy"
+            android:background="#FFFF" />
+
+        <Button
+            android:id="@+id/contact"
+            android:layout_below="@+id/policy"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Contact Us"
+            android:background="#FFFF" />
+
+        <Button
+            android:layout_below="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="App Version                                    1.14.0"
+            android:background="#FFFF" />
+
+    </RelativeLayout>
+</RelativeLayout>

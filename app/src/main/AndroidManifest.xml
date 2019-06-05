@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alzaraapriliani.zaraproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".zaras" />
+        <activity android:name=".jakarta" />
+        <activity
+            android:name=".sarang"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".second" />
+        <activity android:name=".cafe" />
+        <activity android:name=".project1" />
+        <activity android:name=".project2" />
+        <activity android:name=".RegionSelectActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+
+        <activity android:name=".profilemain" />
+        <activity
+            android:name=".notifikasion"
+            android:label="@string/title_activity_notifikasion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".itemlogin"
+            android:label="@string/title_activity_itemlogin"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
