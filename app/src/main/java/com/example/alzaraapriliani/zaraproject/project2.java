@@ -19,7 +19,7 @@ public class project2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_project2);
 
-        findViewById(R.id.spinner).setOnClickListener(new View.OnClickListener() {
+        /*findViewById(R.id.spinner).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(project2.this, RegionSelectActivity.class);
@@ -27,7 +27,7 @@ public class project2 extends AppCompatActivity {
 
 
             }
-        });
+        });*/
 
         findViewById(R.id.btnprofile).setOnClickListener(new View.OnClickListener() {
             @Override
